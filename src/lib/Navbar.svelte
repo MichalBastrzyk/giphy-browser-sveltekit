@@ -9,7 +9,7 @@
 </script>
 
 <header>
-	<nav class="fixed w-full py-4 px-6 bg-black shadow-2xl">
+	<nav class="fixed z-50 w-full py-4 px-6 bg-black shadow-2xl">
 		<div class="max-w-5xl m-auto flex space-around">
 			<a href="/"> <h1 class="text-xl text-light-blue hover:text-green-blue">LOGO</h1></a>
 			<form on:submit|preventDefault={handleSubmit}>
